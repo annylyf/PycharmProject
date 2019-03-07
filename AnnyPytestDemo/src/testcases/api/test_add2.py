@@ -9,6 +9,7 @@ curPath = os.path.abspath(os.path.dirname(__file__))
 rootPath = os.path.split(curPath)[0]
 sys.path.append(rootPath)
 
+
 @allure.feature("测试成功的用例")
 def test_add1():
     assert add2.add_method2(2, 3) == 5
