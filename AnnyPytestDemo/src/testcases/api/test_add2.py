@@ -1,17 +1,22 @@
-from myapp import add2
-import time
 import pytest
+import time
 
+from testcases.testapp import add2
+import sys
+import os
+curPath = os.path.abspath(os.path.dirname(__file__))
+rootPath = os.path.split(curPath)[0]
+sys.path.append(rootPath)
 
 def test_add1():
-    assert  add2.add_method2(2,3)==5
+    assert add2.add_method2(2, 3) == 5
 
 def test_add2():
     print("I am 2")
     time.sleep(3)
     pytest.assume(add2.add_method2(1.2,3.1) == 5.3)
     print("I want to go")
-    pytest.assume(add2.add_method2(1,2) == 3)
+    pytest.assume(add2.add_method2(1, 2) == 3)
 
 #多个asset
 # assert  add2.add_method2(1.2,-0.9)==0.3

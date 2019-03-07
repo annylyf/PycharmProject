@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6c09de2-db91-47cc-815a-3466e3361e3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/myapp/paixu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testcases/api/test_ording.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testcases/api/test_paixu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myapp/pinying_method.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testcases/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testcases/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testcases/api/test_pinying.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testcases/testapp/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myapp/add2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/testcases/testapp/add2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testcases/api/test_paixu.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/testcases/api/test_paixu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/testcases/api/test_para_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/testcases/api/test_para_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testcases/api/test_pytest2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/testcases/api/test_add2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,78 +23,30 @@
     <favorites_list name="AnnyPytestDemo" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/myapp/paixu.py">
+        <entry file="file://$PROJECT_DIR$/src/testcases/testapp/add2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/testcases/api/test_paixu.py">
+        <entry file="file://$PROJECT_DIR$/src/log/testreport/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/myapp/add.py">
+        <entry file="file://$PROJECT_DIR$/src/testcases/api/test_add2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/myapp/add2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcases/api/test_para_demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcases/api/test_pytest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-              <folding>
-                <element signature="e#15#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcases/api/test_ording.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -112,18 +69,24 @@
         <option value="$PROJECT_DIR$/src/myapp/add.py" />
         <option value="$PROJECT_DIR$/src/testcases/api/test_pytest.py" />
         <option value="$PROJECT_DIR$/src/myapp/add2.py" />
-        <option value="$PROJECT_DIR$/src/testcases/api/test_pytest2.py" />
         <option value="$PROJECT_DIR$/src/testcases/api/test_rerun_demo.py" />
         <option value="$PROJECT_DIR$/src/testcases/api/test_ording.py" />
         <option value="$PROJECT_DIR$/src/myapp/paixu.py" />
-        <option value="$PROJECT_DIR$/src/testcases/api/test_para_demo.py" />
         <option value="$PROJECT_DIR$/src/testcases/api/test_paixu.py" />
+        <option value="$PROJECT_DIR$/src/testcases/api/test_para_demo.py" />
+        <option value="$PROJECT_DIR$/src/testcases/api/test_pytest2.py" />
+        <option value="$PROJECT_DIR$/src/testcases/api/.pytest_cache/test_pinying.py" />
+        <option value="$PROJECT_DIR$/src/myapp/pinying.py" />
+        <option value="$PROJECT_DIR$/src/testcases/api/test_pinying.py" />
+        <option value="$PROJECT_DIR$/src/myapp/__init__.py" />
+        <option value="$PROJECT_DIR$/src/testapp/add2.py" />
+        <option value="$PROJECT_DIR$/src/testcases/api/test_add2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="507" />
-    <option name="y" value="63" />
+    <option name="x" value="61" />
+    <option name="y" value="23" />
     <option name="width" value="1379" />
     <option name="height" value="837" />
   </component>
@@ -154,7 +117,22 @@
               <item name="AnnyPytestDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="AnnyPytestDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="myapp" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnnyPytestDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnnyPytestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+              <item name="testreport" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnnyPytestDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnnyPytestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+              <item name="testreport" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AnnyPytestDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -171,6 +149,13 @@
             </path>
             <path>
               <item name="AnnyPytestDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnnyPytestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="testcases" type="462c0819:PsiDirectoryNode" />
+              <item name="testapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnnyPytestDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -181,6 +166,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/testcases" />
+      <recent name="$PROJECT_DIR$/src/testcases/api" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/log/testapp" />
+      <recent name="$PROJECT_DIR$/src/log" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -194,8 +188,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_paixu.py">
-    <configuration name="paixu" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.pytest in test_add2.py">
+    <configuration name="add2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AnnyPytestDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -203,11 +197,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/myapp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testcases/testapp" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/myapp/paixu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/testcases/testapp/add2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,7 +210,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_ording.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_add2.test_add2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="AnnyPytestDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,14 +221,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/testcases/api/test_ording.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_add2.test_add2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_paixu.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_add2.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="AnnyPytestDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="testreport" value="pytest --alluredir= log/testreport/ src/testcases/api/test_pytest2.py " />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testcases/api" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -242,7 +239,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/testcases/api/test_paixu.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/testcases/api/test_add2.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -261,7 +258,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_rerun_demo.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_pinying.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="AnnyPytestDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -272,24 +269,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/testcases/api/test_rerun_demo.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/testcases/api/test_pinying.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.add2" />
+      <item itemvalue="Python tests.pytest for test_add2.test_add2" />
+      <item itemvalue="Python tests.pytest in test_add2.py" />
       <item itemvalue="Python tests.pytest in test_para_demo.py" />
-      <item itemvalue="Python tests.pytest in test_rerun_demo.py" />
-      <item itemvalue="Python tests.pytest in test_ording.py" />
-      <item itemvalue="Python.paixu" />
-      <item itemvalue="Python tests.pytest in test_paixu.py" />
+      <item itemvalue="Python tests.pytest in test_pinying.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_paixu.py" />
+        <item itemvalue="Python tests.pytest in test_add2.py" />
+        <item itemvalue="Python.add2" />
+        <item itemvalue="Python tests.pytest for test_add2.test_add2" />
+        <item itemvalue="Python tests.pytest in test_pinying.py" />
         <item itemvalue="Python tests.pytest in test_para_demo.py" />
-        <item itemvalue="Python.paixu" />
-        <item itemvalue="Python tests.pytest in test_ording.py" />
-        <item itemvalue="Python tests.pytest in test_rerun_demo.py" />
       </list>
     </recent_temporary>
   </component>
@@ -304,38 +301,46 @@
       <option name="presentableId" value="Default" />
       <updated>1551619385277</updated>
     </task>
+    <task id="LOCAL-00001" summary="测试">
+      <created>1551706669809</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551706669810</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_paixu_py - 2019.03.04 at 21h 22m 54s.xml">
-      <configuration name="pytest in test_paixu.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_add2_py - 2019.03.07 at 14h 31m 04s.xml">
+      <configuration name="pytest in test_add2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_paixu_py - 2019.03.04 at 21h 22m 59s.xml">
-      <configuration name="pytest in test_paixu.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_add2_py - 2019.03.07 at 14h 42m 05s.xml">
+      <configuration name="pytest in test_add2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_paixu_py - 2019.03.04 at 21h 23m 01s.xml">
-      <configuration name="pytest in test_paixu.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_add2_py - 2019.03.07 at 14h 45m 59s.xml">
+      <configuration name="pytest in test_add2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_paixu_py - 2019.03.04 at 21h 23m 03s.xml">
-      <configuration name="pytest in test_paixu.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_add2_py - 2019.03.07 at 14h 55m 19s.xml">
+      <configuration name="pytest in test_add2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_paixu_py - 2019.03.04 at 21h 24m 25s.xml">
-      <configuration name="pytest in test_paixu.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_add2_test_add2 - 2019.03.07 at 15h 42m 51s.xml">
+      <configuration name="pytest for test_add2.test_add2" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_paixu_py - 2019.03.04 at 21h 25m 43s.xml">
-      <configuration name="pytest in test_paixu.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_add2_test_add2 - 2019.03.07 at 18h 06m 08s.xml">
+      <configuration name="pytest for test_add2.test_add2" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_paixu_py - 2019.03.04 at 21h 26m 09s.xml">
-      <configuration name="pytest in test_paixu.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_add2_py - 2019.03.07 at 19h 35m 48s.xml">
+      <configuration name="pytest in test_add2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_paixu_py - 2019.03.04 at 21h 26m 30s.xml">
-      <configuration name="pytest in test_paixu.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_add2_py - 2019.03.07 at 20h 28m 49s.xml">
+      <configuration name="pytest in test_add2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_paixu_py - 2019.03.04 at 21h 28m 14s.xml">
-      <configuration name="pytest in test_paixu.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_add2_py - 2019.03.07 at 20h 33m 30s.xml">
+      <configuration name="pytest in test_add2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_paixu_py - 2019.03.04 at 21h 29m 47s.xml">
-      <configuration name="pytest in test_paixu.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_add2_py - 2019.03.07 at 21h 10m 44s.xml">
+      <configuration name="pytest in test_add2.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -348,11 +353,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="507" y="63" width="1379" height="837" extended-state="0" />
+    <frame x="61" y="23" width="1379" height="837" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50138503" side_tool="true" weight="0.2496318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49861497" visible="true" weight="0.24742268" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49861497" visible="true" weight="0.3880707" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32963988" />
@@ -361,7 +366,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32963988" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32963988" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32963988" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.64404434" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32963988" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -370,26 +375,24 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/src/testcases/api/test_pytest2.py">
+    <entry file="file://$PROJECT_DIR$/src/myapp/paixu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="13" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcases/api/test_rerun_demo.py">
+    <entry file="file://$PROJECT_DIR$/src/testcases/api/test_paixu.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -401,10 +404,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/myapp/add2.py">
+    <entry file="file://$PROJECT_DIR$/src/testcases/api/test_para_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="210">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -418,40 +424,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcases/api/test_rerun_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcases/api/.pytest_cache/v/cache/stepwise">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demoapp/__init__.py" />
     <entry file="file://$PROJECT_DIR$/src/testcases/api/test_ording.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcases/api/test_para_demo.py">
+    <entry file="file://$PROJECT_DIR$/src/testcases/api/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcases/api/.pytest_cache/v/cache/lastfailed">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcases/testapp/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myapp/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcases/api/test_pinying.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="645">
+          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/myapp/paixu.py">
+    <entry file="file://$PROJECT_DIR$/src/myapp/pinying_method.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcases/api/test_paixu.py">
+    <entry file="file://$PROJECT_DIR$/log/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log/testreport/d1b3e4cd-8052-4479-84c7-c19cb28c3d6d-result.json" />
+    <entry file="file://$PROJECT_DIR$/src/log/testreport/1ec54ea6-6fd3-4c61-8387-e6235edb6b7e-attachment.txt" />
+    <entry file="file://$PROJECT_DIR$/src/log/testreport/1e280b55-7e08-4ffe-a27b-bbac220d4b1e-result.json" />
+    <entry file="file://$PROJECT_DIR$/src/log/testreport/00cc3202-4d39-4c9a-aa29-fe1084913285-attachment.txt" />
+    <entry file="file://$PROJECT_DIR$/src/testcases/log/testreport/f676c340-6a51-4a88-88b4-4c6a451afd6e-attachment.txt" />
+    <entry file="file://$PROJECT_DIR$/src/testcases/log/testreport/f4999d98-bb36-43dd-8454-acbf27ad6723-attachment.txt" />
+    <entry file="file://$PROJECT_DIR$/src/testcases/log/testreport/d38621ba-f38c-43c7-a8f6-3b7ff8bbc7eb-attachment.txt" />
+    <entry file="file://$PROJECT_DIR$/src/testcases/testapp/add2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcases/api/test_add2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log/testreport/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
