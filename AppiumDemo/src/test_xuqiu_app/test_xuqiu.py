@@ -11,7 +11,7 @@ caps["platformName"] = "android"
 caps["deviceName"] = "demo"
 caps["appPackage"] = "com.xueqiu.android"
 caps["appActivity"] = ".view.WelcomeActivityAlias"
-#解决权限问题
+#解决权限问题,在测试过程中可以解决遇到的权限问题
 caps["autoGrantPermissions"] = "true"
 
 driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)
