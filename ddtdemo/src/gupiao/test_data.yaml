@@ -1,0 +1,7 @@
+sz_case:
+  gupiao_name: sz002320
+  expect_result: 海峡股份
+
+sh_case:
+  gupiao_name: sh603019
+  expect_result: 中科曙光
