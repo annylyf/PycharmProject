@@ -11,7 +11,6 @@ def get_gupiao_name(gupiao):
     print(gupiao_text)
     gupiao_name = gupiao_text[gupiao_text.find('"')+1,gupiao_text.find(',')]
     print("a=1")
-    # gupiao_name = gupiao_text.find('"')
     print(gupiao_name)
     return gupiao_name
 
