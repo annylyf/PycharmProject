@@ -15,10 +15,13 @@ class TestXueqiu(unittest.TestCase):
         caps["appActivity"] = ".view.WelcomeActivityAlias"
         # 解决权限问题,在测试过程中可以解决遇到的权限问题
         caps["autoGrantPermissions"] = "true"
+        
+        if self.driver!=None:
+            caps["noReset"]="true"
 
         self.driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)
         # 隐式等待
-        self.driver.implicitly_wait(6)
+        self.driver.implicitly_wait(10)
 
     def test_add_stock(self):
         self.driver.find_element_by_id("tv_search").click()

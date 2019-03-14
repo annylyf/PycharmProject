@@ -4,7 +4,7 @@ import pytest
 import unittest
 from appium import webdriver
 
-class Test_xueqiu(unittest.TestCase):
+class Testxueqiu(unittest.TestCase):
 
     def test_base(self):
         print("setUp")
