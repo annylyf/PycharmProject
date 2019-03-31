@@ -12,7 +12,7 @@ import requests
 myheaders = {'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'}
 url='https://xueqiu.com/hq#type=sha&exchange=CN&firstName=%E6%B2%AA%E6%B7%B1%E8%82%A1%E5%B8%82&secondName=%E6%8E%92%E8%A1%8C&market=CN&order=desc&order_by=percent&plate=%E6%B2%AAA%E6%B6%A8%E5%B9%85%E6%A6%9C'
 res=requests.get(url,verify=False,headers=myheaders)
-# print(res.json())
+print(res.json())
 print('*'*200)
 print(res.text)
 print('*'*200)
