@@ -1,7 +1,10 @@
 
 import requests
+import logging
+from testcase import test_get_token
 def test_send_msg():
-    ACCESS_TOKE = "7Yb_a7gQ-XzBH54_aJ-wWvn-nk7DUc1zRU5gM_WqZ5xp-D921QqWZjlPvO7Pb_e5RE9a7CTyvr8OEauEpgE7pqEIYjwXzELNDSD1W2tZo2T0wnVdbO0IoKiVlj9Ji2Jcs4YjJAQMKH-hlNcUyEVyUr0QiPm2PZJgvLIbzVg1nQKojxOC9Hw4d9pJHLoA63WESmm_A08CLtYKKd5BNFT0YQ"
+    # ACCESS_TOKE = "7Yb_a7gQ-XzBH54_aJ-wWvn-nk7DUc1zRU5gM_WqZ5xp-D921QqWZjlPvO7Pb_e5RE9a7CTyvr8OEauEpgE7pqEIYjwXzELNDSD1W2tZo2T0wnVdbO0IoKiVlj9Ji2Jcs4YjJAQMKH-hlNcUyEVyUr0QiPm2PZJgvLIbzVg1nQKojxOC9Hw4d9pJHLoA63WESmm_A08CLtYKKd5BNFT0YQ"
+    ACCESS_TOKE=test_get_token.test_token()
     url = 'https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token='+ACCESS_TOKE
     send_json = {
    "touser" : "LiaoYanFang",
@@ -20,7 +23,8 @@ def test_send_msg():
     print(res.json())
 
 def test_send_msg2():
-    ACCESS_TOKE = "7Yb_a7gQ-XzBH54_aJ-wWvn-nk7DUc1zRU5gM_WqZ5xp-D921QqWZjlPvO7Pb_e5RE9a7CTyvr8OEauEpgE7pqEIYjwXzELNDSD1W2tZo2T0wnVdbO0IoKiVlj9Ji2Jcs4YjJAQMKH-hlNcUyEVyUr0QiPm2PZJgvLIbzVg1nQKojxOC9Hw4d9pJHLoA63WESmm_A08CLtYKKd5BNFT0YQ"
+    # ACCESS_TOKE = "7Yb_a7gQ-XzBH54_aJ-wWvn-nk7DUc1zRU5gM_WqZ5xp-D921QqWZjlPvO7Pb_e5RE9a7CTyvr8OEauEpgE7pqEIYjwXzELNDSD1W2tZo2T0wnVdbO0IoKiVlj9Ji2Jcs4YjJAQMKH-hlNcUyEVyUr0QiPm2PZJgvLIbzVg1nQKojxOC9Hw4d9pJHLoA63WESmm_A08CLtYKKd5BNFT0YQ"
+    ACCESS_TOKE=test_get_token.test_token()
     url = 'https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token='+ACCESS_TOKE
     send_json = {
    "touser" : "LiaoYanFang",

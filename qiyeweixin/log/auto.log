@@ -96,3 +96,15 @@
 2019-03-31 16:51:52,971 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
 2019-03-31 16:51:53,377 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=LsI7rHZ0LC1cQGx8PChVrru1eFNcL8xF25QpW70YdnvU-TsyCtEEcH_2l7QfbuU55x1nDt70yuHbOc5i5xvYO76cFqQf8GosL_fZt7YkPgadYVT5ahr-l9JlMJrQGBwuoYVGIQPZYPqprebzOhmWN_WBBJFG7aYgetJxOz92u3iXBi70qBbwfD_OUaVi7irZqxZSWfP5epDxH0O6MFfytw HTTP/1.1" 200 39
 2019-03-31 16:51:53,383 root INFO runner:35 End to execute APP UI automaction cases
+2019-04-06 09:54:17,686 root INFO runner:25 Start to execute  automation cases
+2019-04-06 09:54:18,067 root INFO baseapi:12 init base api interface
+2019-04-06 09:54:18,067 root INFO depmanagment:11 Init department management API
+2019-04-06 09:54:18,067 root INFO baseapi:20 params{'corpid': 'wwd6fc5a5c802ec799', 'corpsecret': 'Qp-5lJZkNt5RvURfosWHO1eHrASOei_0n_yEfL1u-oQ'}
+2019-04-06 09:54:18,068 root INFO baseapi:21 token_url:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2019-04-06 09:54:18,075 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-06 09:54:18,226 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=wwd6fc5a5c802ec799&corpsecret=Qp-5lJZkNt5RvURfosWHO1eHrASOei_0n_yEfL1u-oQ HTTP/1.1" 200 277
+2019-04-06 09:54:18,232 root DEBUG depmanagment:24 url:https://qyapi.weixin.qq.com/cgi-bin/department/create
+2019-04-06 09:54:18,233 root DEBUG depmanagment:25 params:{'access_token': 'k9OQM-_GgByIB350-ZQUfkL8Je8kVBLnhDohCsgO_3clVnDHo0MMR4hwa2Zxxmj_zB9ZygfWAQjCOQq828TQk4OFPWurXOmNqA4aYVmEtX_9zc4jPZDHzbU1t04M4l3faj6Gg0a17_XBHEuIlZHENHPyJ5a3j1u2QfyfRdMAmN6foQwoUkjtEb6tzsxzca9xOTpv2-3dgGilkKbEzx3fcg'}
+2019-04-06 09:54:18,244 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2019-04-06 09:54:18,460 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=k9OQM-_GgByIB350-ZQUfkL8Je8kVBLnhDohCsgO_3clVnDHo0MMR4hwa2Zxxmj_zB9ZygfWAQjCOQq828TQk4OFPWurXOmNqA4aYVmEtX_9zc4jPZDHzbU1t04M4l3faj6Gg0a17_XBHEuIlZHENHPyJ5a3j1u2QfyfRdMAmN6foQwoUkjtEb6tzsxzca9xOTpv2-3dgGilkKbEzx3fcg HTTP/1.1" 200 170
+2019-04-06 09:54:18,587 root INFO runner:35 End to execute APP UI automaction cases
